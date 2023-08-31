@@ -1,0 +1,136 @@
+// scss-docs-start spacer-variables-maps
+$spacer: 1rem;
+$spacers:
+  (
+    0: 0,
+    1: $spacer * .25,
+    2: $spacer * .5,
+    3: $spacer,
+    4: $spacer * 1.5,
+    5: $spacer * 3,
+    "s0" : 0,
+    "s1" : $spacer * .25,
+    "s2" : $spacer * .5,
+    "s3" : $spacer * .75,
+    "s4" : $spacer,
+    "s5" : $spacer * 1.25,
+    "s6" : $spacer * 1.5,
+    "s7" : $spacer * 1.75,
+    "s8" : $spacer * 2,
+    "s9" : $spacer * 2.25,
+    "s10" : $spacer * 2.5,
+    "s11" : $spacer * 2.75,
+    "s12" : $spacer * 3,
+    "s13" : $spacer * 3.25,
+    "s14" : $spacer * 3.5,
+    "s15" : $spacer * 3.75,
+    "s16" : $spacer * 4,
+    "s17" : $spacer * 4.25,
+    "s18" : $spacer * 4.5,
+    "s19" : $spacer * 4.75,
+    "s20" : $spacer * 5,
+    "s21" : $spacer * 5.25,
+    "s22" : $spacer * 5.5,
+    "s23" : $spacer * 5.75,
+    "s24" : $spacer * 6,
+    "s25" : $spacer * 6.25,
+    "s30" : $spacer * 7.5,
+    "s35" : $spacer * 8.75,
+    "s36" : $spacer * 9,
+    "s40" : $spacer * 10,
+    "1p": 1%,
+    "2p": 2%,
+    "3p": 3%,
+    "4p": 4%,
+    "5p": 5%,
+    "6p": 6%,
+    "7p": 7%,
+    "8p": 8%,
+    "9p": 9%,
+    "10p": 10%,
+    "20p": 20%,
+    "30p": 30%,
+    "40p": 40%,
+    "50p": 50%,
+    "60p": 60%,
+    "70p": 70%,
+    "80p": 80%,
+    "90p": 90%,
+    "100p": 100%,
+    "2px": 2px,
+    "s-0": 0,
+    "s-1": 4px,
+    "s-2": 8px,
+    "s-3": 12px,
+    "s-4": 16px,
+    "s-5": 20px,
+    "s-6": 24px,
+    "s-7": 28px,
+    "s-8": 32px,
+    "s-9": 36px,
+    "s-10": 40px,
+    "s-11": 44px,
+    "s-14": 56px,
+    "s-15": 60px,
+    "s-20": 80px,
+    "s-30": 120px,
+    "s-37": 137px
+  );
+// scss-docs-end spacer-variables-maps
+
+// scss-docs-start theme-color-variables
+// $primary: #E07507;//$blue !default;
+// $secondary: #F4E4B7;//$gray-600 !default;
+$primary: #030303;
+$secondary: #fbff22;
+$secondary-light: #FEF9ED;
+$info: #9ACFD8;//$cyan !default;
+// scss-docs-end theme-color-variables
+
+// scss-docs-start custom theme-color
+$info-light:#C2E2E8;
+$black-900 :#303030;
+$black-700 : #6D6D6D;
+$black-400 : #BEBEBE;
+$black-300 :  #E0E0E0;
+$black-200 : #F6F6F6;
+// scss-docs-end custom theme-color
+
+$card-bg: transparent;  // *custom
+$card-spacer-x: 0; // *custom
+$card-title-spacer-y: $spacer * 0.75;  // *custom
+$card-cap-padding-y: 0.75rem; // *custom .card-footer 垂直間距的變數為  $card-cap-padding-y  
+
+// input 背景色
+$input-bg: transparent;
+$form-check-input-border: 1px solid #030303; // *custom
+
+
+// set 其他顏色設定
+$custom-theme-colors-bg-subtle: (
+  "secondary-light": $secondary-light,
+);
+
+// scss-docs-start theme-colors-map
+$theme-colors: (
+  "primary": $primary,
+  "secondary": $secondary,
+);
+// scss-docs-end theme-colors-map
+
+// 引入bs5 預設顏色群組
+// $all-colors: map-merge-multiple($blues, $indigos, $purples, $pinks, $reds, $oranges, $yellows, $greens, $teals, $cyans);
+// $all-colors: map-merge-multiple($purples);
+
+// 自定義字體
+$font-family-sans-serif: 'Noto Sans TC', system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default; $font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+
+
+
+//set 移除主題色設定
+// $theme-colors: map-remove($theme-colors, "info", "light", "dark");
+
+// set 其他設定
+$navbar-toggler-focus-width: none;//$btn-focus-width !default; /*custom*/
+$enable-shadows: false;
+

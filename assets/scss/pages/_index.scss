@@ -1,0 +1,31 @@
+.hero{
+  &-banner{
+    background-image: url('../images/event/13.jpg');
+    height: 350px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    @include media-breakpoint-up(md){
+      height: 518px;
+    }
+  }
+  &-date{
+    @include font-size(32px);
+    @include media-breakpoint-up(md){
+      @include font-size(60px);
+    }
+  }
+  &-content{
+    h2{
+      font-size: 18px;
+      font-weight: 700;
+      @include media-breakpoint-up(md){
+        font-size: 24px;
+      }
+    }
+    p{
+      font-weight: 400;
+    }
+  }
+  
+}

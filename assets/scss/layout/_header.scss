@@ -1,0 +1,49 @@
+.header{
+  &-logo{
+    width: 40px;
+    height: 40px;
+    @include media-breakpoint-up(md) {
+      width: 55px;
+      height: 55px;
+    }
+  }
+  &-search-group{
+    height: 40px;
+    @include media-breakpoint-up(md){
+      height: 55px;
+    }
+  }
+  &-search-btn{
+    width: 40px;
+    height: 40px;
+    @include media-breakpoint-up(md){
+      width: 55px;
+      height: 55px;
+    }
+  }
+}
+
+.navbar {
+  &-custom {
+    left: 0;
+    right: 0;
+    z-index: 20;
+    top: 66px;
+    @include media-breakpoint-up(md) {
+      top: 105px;
+    }
+    .navbar-collapse {
+      @include media-breakpoint-up(lg) {
+        border-bottom: 0;
+      }
+    }
+  }
+  &-link-custom:hover {
+    color: $secondary;
+    background-color: $primary;
+    @include media-breakpoint-up(lg) {
+      color: #9c9e18;
+      background-color: transparent;
+    }
+  }
+}
