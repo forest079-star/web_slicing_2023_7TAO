@@ -14,6 +14,12 @@ dist-ssr
 
 assets/scss/setting
 assets/scss/plugins
+
+assets/pages/about.html
+assets/pages/contact.html
+assets/pages/example.html
+assets/pages/index2.html
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
