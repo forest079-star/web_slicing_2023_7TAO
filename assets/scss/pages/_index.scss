@@ -29,3 +29,49 @@
   }
   
 }
+
+.categories{
+  &-group{
+
+  }
+  &-icon{
+    width: 40px;
+    height: 40px;
+    @include media-breakpoint-up(md){
+      width: 80px;
+      height: 80px;
+    }
+  }
+  &-title{
+    @include font-size(16px);
+    @include media-breakpoint-up(md){
+      @include font-size(24px);
+    }
+  }
+  &-text{
+    font-weight: 700;
+    @include media-breakpoint-up(md){
+      @include font-size(24px);
+    }
+  }
+  &-more{
+    @include font-set(24px, 32px, 700);
+    @include media-breakpoint-up(xxl){
+       @include font-set(48px, 60px, 700);
+    }
+  }
+}
+
+.recent-group{
+  .title-en{
+    font-size: 24px;
+    @include media-breakpoint-up(md){
+      font-size: 64px;
+    }
+  }
+  .title-tw{
+    @include media-breakpoint-up(md){
+      font-size: 32px;
+    }
+  }
+}
