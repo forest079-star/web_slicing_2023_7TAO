@@ -141,4 +141,34 @@
   }
 }
 
+.follow{
+  &-title{
+    @include font-set(24px, 34px, 700);
+    @include media-breakpoint-up(md){
+      @include font-set(32px, 46px, 700);
+    }
+  }
+  &-icon{
+    width: 32px;
+    height: 32px;
+  }
+}
+
+.slogan{
+  &-title{
+    @include font-set(18px, 26px, 700);
+    @include media-breakpoint-up(md){
+      @include font-set(32px, 46px, 700);
+    }
+  }
+}
+
+footer{
+  p{
+    @include font-set(14px, 20px                                    );
+    @include media-breakpoint-up(md){
+      @include font-set(16px, 24px);
+    }
+  }
+}
 

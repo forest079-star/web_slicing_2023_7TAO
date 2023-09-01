@@ -78,6 +78,15 @@ $utilities: map-merge(
       property: position,
       values: static relative absolute fixed sticky
     ),
+    "border-end": (
+      responsive: true, // *custom
+      property: border-right,
+      class: border-end,
+      values: (
+        null: var(--#{$prefix}border-width) var(--#{$prefix}border-style) var(--#{$prefix}border-color),
+        0: 0,
+      )
+    ),
   )
 );
 
