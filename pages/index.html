@@ -8,7 +8,6 @@
   <title>7TAO 活動訂票網 </title>
   <%- include('./layout/meta') -%>
   <%- include('./layout/font') -%>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
 </head>
 
 <body>
@@ -231,9 +230,30 @@
       </div>
     </div>
     <!-- marquee -->
-    <div>
-      
+    <div class="marquee-group">
+      <div class="swiper albums-swiper bg-primary text-secondary  py-4 py-md-6 mb-12 mb-md-15 fw-bold" dir="rtl">
+        <div class="swiper-wrapper" style="transition-timing-function: linear;">
+          <div class="swiper-slide w-auto marquee-text">
+            活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・
+          </div>
+          <div class="swiper-slide w-auto marquee-text">
+            活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・
+          </div>
+          <div class="swiper-slide w-auto marquee-text">
+            活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・
+          </div>
+          <div class="swiper-slide w-auto marquee-text">
+            活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・
+          </div>
+        </div>
+      </div>
     </div>
+
+    <!-- gallery -->
+    <div class="gallery-group">
+      1
+    </div>
+    
     
 
   </main> 
@@ -246,12 +266,9 @@
   </footer>
 
 
-  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
   <script type="module" src="../main.js"></script>
   <script type="module" src="../assets/js/index.js"></script>
-  <script>
-    
-  </script>
+
 </body>
 
 </html>

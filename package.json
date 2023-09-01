@@ -23,6 +23,7 @@
     "jquery": "^3.7.0",
     "sass": "1.64.2",
     "sass-loader": "^13.2.2",
+    "swiper": "^10.2.0",
     "vite-plugin-live-reload": "^3.0.2"
   }
 }

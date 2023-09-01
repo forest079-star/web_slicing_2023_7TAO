@@ -76,7 +76,6 @@
 }
 
 .online{
-
     &-image{
       background-image: url('../images/event/online.jpg');
       background-size: cover;
@@ -111,10 +110,18 @@
       @include media-breakpoint-up(md){
         @include font-set(20px, 29px, 700);
       }
-    }
-  
+    }  
+}
 
-  
+.marquee{
+  &-text{
+    letter-spacing: 1.6px;
+    font-weight: 700;
+    @include media-breakpoint-up(md){
+      @include font-set(32px, 46px, 700);
+      letter-spacing: 3.2px;
+    }
+  }
 }
 
 
