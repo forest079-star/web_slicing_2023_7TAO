@@ -1400,7 +1400,8 @@ $pagination-hover-bg: $primary !default; // *custom
 $pagination-hover-border-color: $primary !default; // *custom
 
 
-$pagination-active-color:           $component-active-color !default;
+// $pagination-active-color:           $component-active-color !default;
+$pagination-active-color:           $secondary !default; // *custom
 $pagination-active-bg:              $component-active-bg !default;
 $pagination-active-border-color:    $component-active-bg !default;
 
