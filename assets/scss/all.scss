@@ -1,20 +1,7 @@
-// 載入 swiper 套件
-@import 'swiper/css/bundle';
-
 // 1. 首先包含功能函數（這樣你可以操作顏色、SVG、計算等）
 @import "../../node_modules/bootstrap/scss/functions";
 
-//set 1-1 在此包含任何默認變量覆蓋
-// $primary: #521945;
-// $secondary: #912F56;
-
-
 // ! 自定義顏色、間距設定
-// @import "helpers/variables-m";
-
-// 2. 包含所需的 Bootstrap 樣式表的其餘部分（包括任何單獨的顏色模式樣式表）
-// @import '../../node_modules/bootstrap/scss/variables';
-// @import '../../node_modules/bootstrap/scss/variables-dark';
 @import "helpers/variables";
 @import "helpers/variables-dark";
 
@@ -53,20 +40,20 @@
 @import "../../node_modules/bootstrap/scss/navbar";
 @import "../../node_modules/bootstrap/scss/card";
 @import "../../node_modules/bootstrap/scss/accordion";
-@import "../../node_modules/bootstrap/scss/breadcrumb";
+// @import "../../node_modules/bootstrap/scss/breadcrumb";
 @import "../../node_modules/bootstrap/scss/pagination";
-@import "../../node_modules/bootstrap/scss/badge";
-@import "../../node_modules/bootstrap/scss/alert";
-@import "../../node_modules/bootstrap/scss/progress";
+// @import "../../node_modules/bootstrap/scss/badge";
+// @import "../../node_modules/bootstrap/scss/alert";
+// @import "../../node_modules/bootstrap/scss/progress";
 @import "../../node_modules/bootstrap/scss/list-group";
 @import "../../node_modules/bootstrap/scss/close";
-@import "../../node_modules/bootstrap/scss/toasts";
+// @import "../../node_modules/bootstrap/scss/toasts";
 @import "../../node_modules/bootstrap/scss/modal";
-@import "../../node_modules/bootstrap/scss/tooltip";
-@import "../../node_modules/bootstrap/scss/popover";
-@import "../../node_modules/bootstrap/scss/carousel";
-@import "../../node_modules/bootstrap/scss/spinners";
-@import "../../node_modules/bootstrap/scss/offcanvas";
+// @import "../../node_modules/bootstrap/scss/tooltip";
+// @import "../../node_modules/bootstrap/scss/popover";
+// @import "../../node_modules/bootstrap/scss/carousel";
+// @import "../../node_modules/bootstrap/scss/spinners";
+// @import "../../node_modules/bootstrap/scss/offcanvas";
 @import "../../node_modules/bootstrap/scss/placeholders";
 
 // Helpers
@@ -96,6 +83,10 @@
 
 // plugins 
 @import 'plugins/swiper';
+// 載入 swiper 套件
+@import 'swiper/css/bundle';
+// 載入 aos 套件
+@import 'aos/dist/aos';
 
 // Vendors
 @import './vendors/icofont/icofont.min.css';

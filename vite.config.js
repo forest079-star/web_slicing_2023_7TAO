@@ -32,11 +32,11 @@ export default defineConfig({
     liveReload(['./layout/**/*.ejs', './pages/**/*.ejs', './pages/**/*.html']),
     ViteEjsPlugin(),
     moveOutputPlugin(),
-    inject({
-      $: 'jquery', // 这里会自动载入 node_modules 中的 jquery
-      jQuery: 'jquery',
-      'windows.jQuery': 'jquery',
-    }),
+    // inject({
+    //   $: 'jquery', // 这里会自动载入 node_modules 中的 jquery
+    //   jQuery: 'jquery',
+    //   'windows.jQuery': 'jquery',
+    // }),
   ],
   css: {
     // 增加 source map
