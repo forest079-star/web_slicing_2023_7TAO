@@ -1,14 +1,10 @@
 import Swiper from 'swiper/bundle';
 
 const albumsSwiper = new Swiper('.albums-swiper', {
-  allowTouchMove: false,
-
   slidesPerView: 'auto',
-
   speed: 10000,
-
+  allowTouchMove: false,
   loop: true,
-
   autoplay: {
     delay: 0,
     disableOnInteraction: false,
@@ -33,9 +29,9 @@ const albumsSwiper = new Swiper('.albums-swiper', {
 // once: 動畫是否只應觸發一次（當向下滾動時）。
 // mirror: 元素是否應在滾動過它們時執行動畫。
 // anchorPlacement: 定義元素相對於窗口的哪個位置應觸發動畫。
-AOS.init({
-  // once: true,
-});
+// AOS.init({
+//   // once: true,
+// });
 
 
 
