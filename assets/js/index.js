@@ -11,6 +11,14 @@ const albumsSwiper = new Swiper('.albums-swiper', {
   },
 });
 
+
+// modal
+  const registerBtn = document.querySelector('#registerBtn');
+
+  registerBtn.addEventListener('click', (e) => {
+    e.preventDefault();
+  });
+
 // 設定 AOS
 // 全局設定：
 // disable: 用於禁用 AOS 的設定。接受 'phone', 'tablet', 'mobile', 布林值，表達式或函數。
